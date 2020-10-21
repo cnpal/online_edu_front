@@ -94,7 +94,7 @@
             :before-remove="beforeVodRemove"
             :on-exceed="handleUploadExceed"
             :file-list="fileList"
-            :action="BASE_API+'/eduvod/video/uploadAliyunVideo'"
+            :action="BASE_API+'/eduvod/video/uploadAlyVideo'"
             :limit="1"
             class="upload-demo">
             <el-button size="small" type="primary">上传视频</el-button>
